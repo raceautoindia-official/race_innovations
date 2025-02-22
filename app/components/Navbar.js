@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg bg-white">
       <div className="container-fluid">
         {/* Logo */}
-        <a className="navbar-brand d_navlogo" href="#">
+        <a className="navbar-brand d_navlogo" href="/">
           <img
             src="/images/main_logo.png"
             alt="Logo"
@@ -59,12 +59,18 @@ const Navbar = () => {
               </Link>
               <ul className="dropdown-menu" aria-labelledby="aboutDropdown">
                 <li>
-                  <Link className="dropdown-item" href="/about-us/vision-mission">
+                  <Link
+                    className="dropdown-item"
+                    href="/about-us/vision-mission"
+                  >
                     Vision & Mission
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" href="/about-us/management-team">
+                  <Link
+                    className="dropdown-item"
+                    href="/about-us/management-team"
+                  >
                     Management Team
                   </Link>
                 </li>
@@ -103,10 +109,7 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    className="dropdown-item"
-                    href="/accounting-and-legal"
-                  >
+                  <Link className="dropdown-item" href="/accounting-and-legal">
                     Accounting & Legal
                   </Link>
                 </li>
@@ -202,7 +205,7 @@ const Navbar = () => {
             </Link>
 
             {/* Telephone Icon */}
-            <Link className="nav-link me-2 mt-3 header_icon" href="#">
+            <Link className="nav-link me-2 mt-3 header_icon" href="/contact">
               <i
                 className="bi bi-telephone-fill"
                 style={{ fontSize: "22px", color: "black" }}

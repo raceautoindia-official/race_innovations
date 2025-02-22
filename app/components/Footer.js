@@ -15,16 +15,23 @@ const Footer = () => {
           <div className="col-md-2">
             <Image
               src="/images/rlogo.png"
-              width={300}
-              height={200}
-              alt="Card 1"
+              width={311}
+              height={251}
+              alt="logo"
               style={{ objectFit: "contain" }}
             />
           </div>
           <div className="col-md-7">
             <p className="mb-0">
-            About RACE Innovations
-            At RACE Innovations, we are passionate about transforming ideas into impactful solutions. As trusted consultants, we partner with businesses to navigate complex challenges and deliver innovative strategies that drive success. Our team excels at designing and implementing custom solutions tailored to your unique needs, helping you stay ahead in a fast-paced world. With a focus on collaboration, creativity, and sustainability, we are dedicated to delivering results that empower growth and create lasting value for our clients.
+              About RACE Innovations At RACE Innovations, we are passionate
+              about transforming ideas into impactful solutions. As trusted
+              consultants, we partner with businesses to navigate complex
+              challenges and deliver innovative strategies that drive success.
+              Our team excels at designing and implementing custom solutions
+              tailored to your unique needs, helping you stay ahead in a
+              fast-paced world. With a focus on collaboration, creativity, and
+              sustainability, we are dedicated to delivering results that
+              empower growth and create lasting value for our clients.
             </p>
           </div>
           <div className="col-md-2">
@@ -40,10 +47,26 @@ const Footer = () => {
       <div className="container mt-5">
         <div className="d-flex justify-content-between">
           <p>@Copyright 2025 Race Innovations - All Rights Reserved</p>
-          <p>About Us</p>
-          <p>Careers</p>
-          <p>Contact</p>
-          <p>Investor</p>
+          <p>
+            <a href="/about-us" style={{ textDecoration: "none" , color:"black" }}>
+              About Us
+            </a>
+          </p>
+          <p>
+            <a href="/career" style={{ textDecoration: "none" , color:"black" }}>
+              Careers
+            </a>
+          </p>
+          <p>
+            <a href="/contact" style={{ textDecoration: "none", color:"black" }}>
+              Contact
+            </a>
+          </p>
+          <p>
+            <a href="/investors" style={{ textDecoration: "none", color:"black" }}>
+              Investor
+            </a>
+          </p>
         </div>
       </div>
     </div>

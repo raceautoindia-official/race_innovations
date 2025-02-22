@@ -3,6 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { FaEye, FaDownload } from 'react-icons/fa';
 import {
   MdDashboard,
   MdArticle,
@@ -55,6 +56,7 @@ const NavItem = ({ href, icon, text }) => (
     </Link>
   </li>
 );
+
 const sidebarStyle = {
   width: "250px",
   height: "100vh",

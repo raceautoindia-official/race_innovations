@@ -38,24 +38,7 @@
       padding-right: 0.5rem;
     }
   }
-body {
-    overflow-x: hidden;
-    overflow-y: auto; 
-  }
-.d_navlogo {
-    display: inline-block;
-  }
-  .menus {
-    display: inline-block;
-    margin-right: 15px; 
-  }
-  .header_icons {
-    display: inline-block;
-    margin-left: 15px; 
-  }
-  .desktop_nav {
-    width: 100%;
-  }
+
   
   
   
